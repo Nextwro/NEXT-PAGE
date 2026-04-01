@@ -3,7 +3,7 @@
   <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="Team Banner" width="100%">
 </p>
 
-<h1 align="center">NOMBRE DEL EQUIPO</h1>
+<h1 align="center">NEXT</h1>
 
 ---
 
