@@ -10,9 +10,9 @@
 ## 👥 About Us
 
 <p align="center">
-  <img src="C:\Users\jamar\Downloads\Screenshot_20260401_173024_WhatsApp.jpg" width="150">
-  <img src="C:\Users\jamar\Downloads\Screenshot_20260401_173028_WhatsApp.jpg" width="150">
-  <img src="C:\Users\jamar\Downloads\Screenshot_20260401_173020_WhatsApp.jpg" width="150">
+  <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173020_WhatsApp.jpg" width="150">
+  <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173024_WhatsApp.jpg" width="150">
+  <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173028_WhatsApp.jpg" width="150">
 </p>
 
 We are a robotics team participating in the **World Robot Olympiad (WRO)**.  
