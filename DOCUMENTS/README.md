@@ -1,6 +1,6 @@
 <!-- BANNER -->
 <p align="center">
-  <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="Team Banner" width="100%">
+  <img src="https://www.canva.com/design/DAHCigXB16g/arx-hPYzf6CnF-ODCDIBsw/edit" alt="Team Banner" width="100%">
 </p>
 
 <h1 align="center">NOMBRE DEL EQUIPO</h1>
