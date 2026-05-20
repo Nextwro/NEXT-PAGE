@@ -1,12 +1,15 @@
+<div align="center">
+
+<link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
+
+<div style="font-family: 'Glacial Indifference', sans-serif;">
+
 <!-- BANNER -->
 <p align="center">
   <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="Team Banner" width="100%">
 </p>
 
-<!-- TITLE WITH GLACIAL INDIFFERENCE -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Glacial+Indifference&size=50&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&height=80&lines=NEXT" alt="NEXT Title">
-</p>
+<h1 align="center">NEXT</h1>
 
 ---
 
@@ -64,3 +67,6 @@ WRO encourages students to develop skills in:
 <p align="center">
   🚀 Built with passion for robotics
 </p>
+
+</div>
+</div>
