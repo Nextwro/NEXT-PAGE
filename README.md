@@ -3,7 +3,10 @@
   <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="Team Banner" width="100%">
 </p>
 
-<h1 align="center">NEXT</h1>
+<!-- TITLE WITH GLACIAL INDIFFERENCE -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Glacial+Indifference&size=50&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&height=80&lines=NEXT" alt="NEXT Title">
+</p>
 
 ---
 
@@ -35,7 +38,6 @@ Our project focuses on developing a robot designed to:
 - The first objective is to ensure that young people do not become disengaged from reading, since they would lose spelling.
 - The second objective is to preserve the culture of reading, since thanks to it we can learn many current or historical curious facts.
 - And our third objective is to encourage young people to read so that they can take a break from their routines and social networks.
-
 
 We aim to create an efficient, intelligent, and autonomous solution using advanced robotics concepts.
 
