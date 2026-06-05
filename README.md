@@ -25,12 +25,18 @@ We are **NEXT**, a robotics team participating in the **World Robot Olympiad (WR
 Our team is driven by a passion for technology, innovation, and the development of solutions that address real-world challenges through robotics and engineering.
 
 ### 👤 Team Members
+<<<<<<< HEAD
 
 | Member | Role |
 |---------|---------|
 | Mario | GitHub & Programming |
 | Blanca | Information & Research |
 | Jimena | Design |
+=======
+- Mario – Documentation
+- Blanca – Programming
+- Jimena – Design & comms
+>>>>>>> c09591f4210db4481d61504cb8a3a191b3bd05d5
 
 ### 🎓 Coach
 
@@ -70,11 +76,3 @@ WRO encourages participants to develop essential skills such as:
 - Programming
 - Engineering
 
----
-
-<p align="center">
-  🚀 Built with passion for robotics
-</p>
-
-</div>
-```
