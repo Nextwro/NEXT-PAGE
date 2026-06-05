@@ -1,7 +1,5 @@
-```html
 <div align="center">
 
-<!-- BANNER -->
 <p align="center">
   <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="NEXT Team Banner" width="100%">
 </p>
@@ -15,9 +13,9 @@
 ## 👥 About Us
 
 <p align="center">
-  <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173020_WhatsApp.jpg" width="150">
-  <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173024_WhatsApp.jpg" width="150">
-  <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173028_WhatsApp.jpg" width="150">
+  <img src="https://raw.githubusercontent.com/Nextwro/NEXT-PAGE/main/IMAGES/Screenshot_20260401_173020_WhatsApp.jpg" width="150">
+  <img src="https://raw.githubusercontent.com/Nextwro/NEXT-PAGE/main/IMAGES/Screenshot_20260401_173024_WhatsApp.jpg" width="150">
+  <img src="https://raw.githubusercontent.com/Nextwro/NEXT-PAGE/main/IMAGES/Screenshot_20260401_173028_WhatsApp.jpg" width="150">
 </p>
 
 We are **NEXT**, a robotics team participating in the **World Robot Olympiad (WRO)**.
@@ -25,18 +23,12 @@ We are **NEXT**, a robotics team participating in the **World Robot Olympiad (WR
 Our team is driven by a passion for technology, innovation, and the development of solutions that address real-world challenges through robotics and engineering.
 
 ### 👤 Team Members
-<<<<<<< HEAD
 
 | Member | Role |
 |---------|---------|
 | Mario | GitHub & Programming |
 | Blanca | Information & Research |
 | Jimena | Design |
-=======
-- Mario – Documentation
-- Blanca – Programming
-- Jimena – Design & comms
->>>>>>> c09591f4210db4481d61504cb8a3a191b3bd05d5
 
 ### 🎓 Coach
 
@@ -46,33 +38,49 @@ Our team is driven by a passion for technology, innovation, and the development 
 
 ## 🤖 Our Project
 
-Our project focuses on developing a robotic solution with the following objectives:
+Our project focuses on promoting reading among young people through an innovative robotic solution.
 
-📚 **Promote reading among young people** to prevent the loss of important language and spelling skills.
+Many teenagers spend a large amount of time on social media and digital entertainment, reducing the time dedicated to reading. This can affect language development, spelling skills, creativity, and access to knowledge.
 
-📖 **Preserve reading culture** by encouraging access to knowledge, history, and valuable information found in books.
+Our objectives are:
 
-🌱 **Encourage healthy habits** by motivating young people to take a break from daily routines and excessive social media use through reading.
+📚 **Promote reading habits** among young people.
 
-Through this project, we aim to create an efficient, intelligent, and autonomous solution using advanced robotics concepts.
+📖 **Preserve reading culture** and encourage access to books and knowledge.
+
+🌱 **Encourage healthier lifestyles** by balancing screen time with educational activities.
+
+🤖 **Use robotics and technology** to create an engaging and autonomous solution that motivates users to read.
+
+Through this project, we aim to combine innovation, engineering, and education to make reading more attractive and accessible.
 
 ---
 
 ## 🌍 What is WRO?
 
-The **World Robot Olympiad (WRO)** is an international robotics competition that brings together students and young innovators from around the world.
+The **World Robot Olympiad (WRO)** is an international robotics competition that brings together students and young innovators from all around the world.
 
-Participants design, build, and program robots to solve challenges in different categories, including:
+Participants design, build, and program robots to solve real-world challenges while developing technical and teamwork skills.
+
+WRO categories include:
 
 - 🤖 RoboMission
 - ⚙️ Future Engineers
 - 💡 Future Innovators
 
-WRO encourages participants to develop essential skills such as:
+The competition encourages participants to develop:
 
-- Problem-solving
+- Problem-solving skills
 - Creativity
 - Teamwork
-- Programming
-- Engineering
+- Programming knowledge
+- Engineering thinking
+- Innovation and critical thinking
 
+By participating in WRO, teams gain valuable experience in technology and learn how to create solutions that can positively impact society.
+
+---
+
+⭐ Thanks for visiting our repository and supporting our journey in robotics!
+
+</div>
