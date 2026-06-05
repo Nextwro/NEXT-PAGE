@@ -1,72 +1,86 @@
 <div align="center">
 
-<link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
-
-<div style="font-family: 'Glacial Indifference', sans-serif;">
-
-<!-- BANNER -->
 <p align="center">
-  <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="Team Banner" width="100%">
+  <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="NEXT Team Banner" width="100%">
 </p>
 
-<h1 align="center">NEXT</h1>
+# NEXT
+
+*Passion, Innovation and Robotics*
 
 ---
 
 ## 👥 About Us
 
 <p align="center">
-  <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173020_WhatsApp.jpg" width="150">
-  <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173024_WhatsApp.jpg" width="150">
-  <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173028_WhatsApp.jpg" width="150">
+  <img src="https://raw.githubusercontent.com/Nextwro/NEXT-PAGE/main/IMAGES/Screenshot_20260401_173020_WhatsApp.jpg" width="150">
+  <img src="https://raw.githubusercontent.com/Nextwro/NEXT-PAGE/main/IMAGES/Screenshot_20260401_173024_WhatsApp.jpg" width="150">
+  <img src="https://raw.githubusercontent.com/Nextwro/NEXT-PAGE/main/IMAGES/Screenshot_20260401_173028_WhatsApp.jpg" width="150">
 </p>
 
-We are a robotics team participating in the **World Robot Olympiad (WRO)**.  
-Our team is passionate about technology, innovation, and solving real-world problems through robotics.
+We are **NEXT**, a robotics team participating in the **World Robot Olympiad (WRO)**.
+
+Our team is driven by a passion for technology, innovation, and the development of solutions that address real-world challenges through robotics and engineering.
 
 ### 👤 Team Members
-- Mario – Github
-- Blanca – Inform
-- Jimena – Design
+
+| Member | Role |
+|---------|---------|
+| Mario | GitHub & Programming |
+| Blanca | Information & Research |
+| Jimena | Design |
 
 ### 🎓 Coach
-- Jose Ángel
+
+**Jose Ángel**
 
 ---
 
 ## 🤖 Our Project
 
-Our project focuses on developing a robot designed to:
+Our project focuses on promoting reading among young people through an innovative robotic solution.
 
-- The first objective is to ensure that young people do not become disengaged from reading, since they would lose spelling.
-- The second objective is to preserve the culture of reading, since thanks to it we can learn many current or historical curious facts.
-- And our third objective is to encourage young people to read so that they can take a break from their routines and social networks.
+Many teenagers spend a large amount of time on social media and digital entertainment, reducing the time dedicated to reading. This can affect language development, spelling skills, creativity, and access to knowledge.
 
-We aim to create an efficient, intelligent, and autonomous solution using advanced robotics concepts.
+Our objectives are:
+
+📚 **Promote reading habits** among young people.
+
+📖 **Preserve reading culture** and encourage access to books and knowledge.
+
+🌱 **Encourage healthier lifestyles** by balancing screen time with educational activities.
+
+🤖 **Use robotics and technology** to create an engaging and autonomous solution that motivates users to read.
+
+Through this project, we aim to combine innovation, engineering, and education to make reading more attractive and accessible.
 
 ---
 
 ## 🌍 What is WRO?
 
-The **World Robot Olympiad (WRO)** is an international robotics competition that brings together young people from all over the world.
+The **World Robot Olympiad (WRO)** is an international robotics competition that brings together students and young innovators from all around the world.
 
-Participants design, build, and program robots to solve challenges in different categories such as:
+Participants design, build, and program robots to solve real-world challenges while developing technical and teamwork skills.
 
-- RoboMission  
-- Future Engineers  
-- Future Innovators  
+WRO categories include:
 
-WRO encourages students to develop skills in:
-- Problem-solving  
-- Creativity  
-- Teamwork  
-- Programming and engineering  
+- 🤖 RoboMission
+- ⚙️ Future Engineers
+- 💡 Future Innovators
+
+The competition encourages participants to develop:
+
+- Problem-solving skills
+- Creativity
+- Teamwork
+- Programming knowledge
+- Engineering thinking
+- Innovation and critical thinking
+
+By participating in WRO, teams gain valuable experience in technology and learn how to create solutions that can positively impact society.
 
 ---
 
-<p align="center">
-  🚀 Built with passion for robotics
-</p>
+⭐ Thanks for visiting our repository and supporting our journey in robotics!
 
-</div>
 </div>
