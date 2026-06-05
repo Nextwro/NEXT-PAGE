@@ -1,15 +1,14 @@
+```html
 <div align="center">
-
-<link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
-
-<div style="font-family: 'Glacial Indifference', sans-serif;">
 
 <!-- BANNER -->
 <p align="center">
-  <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="Team Banner" width="100%">
+  <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="NEXT Team Banner" width="100%">
 </p>
 
-<h1 align="center">NEXT</h1>
+# NEXT
+
+*Passion, Innovation and Robotics*
 
 ---
 
@@ -21,46 +20,55 @@
   <img src="https://github.com/Nextwro/NEXT-PAGE/blob/main/IMAGES/Screenshot_20260401_173028_WhatsApp.jpg" width="150">
 </p>
 
-We are a robotics team participating in the **World Robot Olympiad (WRO)**.  
-Our team is passionate about technology, innovation, and solving real-world problems through robotics.
+We are **NEXT**, a robotics team participating in the **World Robot Olympiad (WRO)**.
+
+Our team is driven by a passion for technology, innovation, and the development of solutions that address real-world challenges through robotics and engineering.
 
 ### 👤 Team Members
-- Mario – Github
-- Blanca – Inform
-- Jimena – Design
+
+| Member | Role |
+|---------|---------|
+| Mario | GitHub & Programming |
+| Blanca | Information & Research |
+| Jimena | Design |
 
 ### 🎓 Coach
-- Jose Ángel
+
+**Jose Ángel**
 
 ---
 
 ## 🤖 Our Project
 
-Our project focuses on developing a robot designed to:
+Our project focuses on developing a robotic solution with the following objectives:
 
-- The first objective is to ensure that young people do not become disengaged from reading, since they would lose spelling.
-- The second objective is to preserve the culture of reading, since thanks to it we can learn many current or historical curious facts.
-- And our third objective is to encourage young people to read so that they can take a break from their routines and social networks.
+📚 **Promote reading among young people** to prevent the loss of important language and spelling skills.
 
-We aim to create an efficient, intelligent, and autonomous solution using advanced robotics concepts.
+📖 **Preserve reading culture** by encouraging access to knowledge, history, and valuable information found in books.
+
+🌱 **Encourage healthy habits** by motivating young people to take a break from daily routines and excessive social media use through reading.
+
+Through this project, we aim to create an efficient, intelligent, and autonomous solution using advanced robotics concepts.
 
 ---
 
 ## 🌍 What is WRO?
 
-The **World Robot Olympiad (WRO)** is an international robotics competition that brings together young people from all over the world.
+The **World Robot Olympiad (WRO)** is an international robotics competition that brings together students and young innovators from around the world.
 
-Participants design, build, and program robots to solve challenges in different categories such as:
+Participants design, build, and program robots to solve challenges in different categories, including:
 
-- RoboMission  
-- Future Engineers  
-- Future Innovators  
+- 🤖 RoboMission
+- ⚙️ Future Engineers
+- 💡 Future Innovators
 
-WRO encourages students to develop skills in:
-- Problem-solving  
-- Creativity  
-- Teamwork  
-- Programming and engineering  
+WRO encourages participants to develop essential skills such as:
+
+- Problem-solving
+- Creativity
+- Teamwork
+- Programming
+- Engineering
 
 ---
 
@@ -69,4 +77,4 @@ WRO encourages students to develop skills in:
 </p>
 
 </div>
-</div>
+```
