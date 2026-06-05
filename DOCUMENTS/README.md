@@ -1,9 +1,15 @@
+<div align="center">
+
+<link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
+
+<div style="font-family: 'Glacial Indifference', sans-serif;">
+
 <!-- BANNER -->
 <p align="center">
-  <img src="https://www.canva.com/design/DAHCigXB16g/arx-hPYzf6CnF-ODCDIBsw/edit" alt="Team Banner" width="100%">
+  <img src="https://canva.link/p13d13vpchwplceBANNER_O_LOGO" alt="Team Banner" width="100%">
 </p>
 
-<h1 align="center">NOMBRE DEL EQUIPO</h1>
+<h1 align="center">NEXT</h1>
 
 ---
 
@@ -36,7 +42,6 @@ Our project focuses on developing a robot designed to:
 - The second objective is to preserve the culture of reading, since thanks to it we can learn many current or historical curious facts.
 - And our third objective is to encourage young people to read so that they can take a break from their routines and social networks.
 
-
 We aim to create an efficient, intelligent, and autonomous solution using advanced robotics concepts.
 
 ---
@@ -62,3 +67,6 @@ WRO encourages students to develop skills in:
 <p align="center">
   🚀 Built with passion for robotics
 </p>
+
+</div>
+</div>
