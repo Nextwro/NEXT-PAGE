@@ -26,9 +26,9 @@ Our team is driven by a passion for technology, innovation, and the development 
 
 | Member | Role |
 |---------|---------|
-| Mario | GitHub & Programming |
-| Blanca | Information & Research |
-| Jimena | Design |
+| Mario |Documentation |
+| Blanca | Programming |
+| Jimena | Design & comms |
 
 ### 🎓 Coach
 
