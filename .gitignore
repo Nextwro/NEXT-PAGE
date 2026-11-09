@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Sensor runtime files
+mmwave_state.json
+mmwave_state.json.tmp
+*.log
+*.pid
+
+# Secrets and private keys
+credentials.json
+secrets.json
+token.json
+*.pem
+*.key
+
+# Build artifacts
+node_modules/
+dist/
+build/
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
