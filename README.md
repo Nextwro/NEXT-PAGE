@@ -1,7 +1,7 @@
 <!-- NEXTpage · WRO 2026 · Bilingual project presentation -->
 <div align="center">
 
-<img src="./IMAGES/NEXT/BANNER%20NEXT%20.png" alt="NEXT — Banner oficial del equipo / Official team banner" width="100%">
+<img src="./IMAGES/NEXT/banner-next-optimized.png" alt="NEXT — Banner oficial del equipo / Official team banner" width="100%">
 
 # NEXTpage
 
