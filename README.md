@@ -1,118 +1,194 @@
-<!-- NEXTpage · World Robot Olympiad 2026 -->
+<!-- NEXTpage · WRO 2026 · Bilingual project presentation -->
 <div align="center">
 
-<img src="./IMAGES/NEXT/NEXT%20logo.png" alt="NEXT logo" width="210"/>
+<img src="./IMAGES/NEXT/BANNER%20NEXT%20.png" alt="NEXT — Banner oficial del equipo / Official team banner" width="100%">
 
 # NEXTpage
 
-### Turn the page. Rediscover reading.
+### Tecnología para volver a los libros · Technology that brings us back to books
 
-**A smart reading ecosystem connecting printed books, sensor technology and a home station.**
+**World Robot Olympiad 2026 · Future Innovators Senior**  
+**Campeones de España / Spanish National Champions**  
+**MMM Academy · Alcantarilla, Murcia, España / Spain**
 
-**Team NEXT · MMM Academy · Alcantarilla, Murcia, Spain**  
-**WRO 2026 · Future Innovators Senior · Spanish National Champions**
+### [🇪🇸 Español](#es) &nbsp; | &nbsp; [🇬🇧 English](#en)
 
 </div>
 
 ---
 
-## Why NEXTpage?
-
-We wanted to answer a question: **Can we use technology to encourage young people to read physical books?**
-
-NEXTpage is our attempt to bring technology *closer* to reading, instead of replacing the book with another screen. Our prototype combines a smart bookmark, an interactive home station and a companion mobile-app concept.
+## 👥 Equipo NEXT · Meet the team
 
 <div align="center">
-<img src="./IMAGES/TEAM%20PHOTOS/TEAM%20PHOTO.jpg" alt="Team NEXT" width="700"/>
+<strong>Un mismo objetivo, tres especialidades complementarias.</strong><br>
+<em>One shared goal, three complementary specialities.</em>
 </div>
 
-## The reading ecosystem
+<br>
 
-| Module | What it does | Status |
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./IMAGES/TEAM%20PHOTOS/BLANCA.jpg" alt="Blanca Cascales" width="190"><br>
+      <strong>Blanca Cascales</strong><br>
+      <strong>Electrónica y programación</strong><br>
+      <em>Electronics &amp; Programming</em><br>
+      <small>Sensores, hardware y desarrollo del software.<br> Sensors, hardware and software development.</small>
+    </td>
+    <td align="center" width="33%">
+      <img src="./IMAGES/TEAM%20PHOTOS/JIMENA.jpg" alt="Jimena Martínez" width="190"><br>
+      <strong>Jimena Martínez</strong><br>
+      <strong>Diseño y emprendimiento</strong><br>
+      <em>Design &amp; Entrepreneurship</em><br>
+      <small>Diseño del producto, identidad visual y modelo de negocio.<br>Product design, visual identity and business model.</small>
+    </td>
+    <td align="center" width="33%">
+      <img src="./IMAGES/TEAM%20PHOTOS/MARIO%202.jpg" alt="Mario Sánchez" width="190"><br>
+      <strong>Mario Sánchez</strong><br>
+      <strong>Comunicación y documentación</strong><br>
+      <em>Communication &amp; Documentation</em><br>
+      <small>Documentación técnica y difusión del proyecto.<br>Technical documentation and project communication.</small>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+**Mentor / Coach:** José Ángel · **MMM Academy**
+
+[Ir a la versión en español](#es) · [Go to the English version](#en)
+
+</div>
+
+---
+
+<a id="es"></a>
+## 🇪🇸 NEXTpage — Español
+
+### ¿Qué es NEXTpage?
+
+**NEXTpage es un ecosistema de lectura inteligente pensado para animar a los jóvenes a recuperar el hábito de leer libros físicos.** Queremos utilizar la tecnología para acompañar la lectura, no para sustituir el libro por otra pantalla.
+
+El proyecto combina un **marcapáginas inteligente**, una **estación base** y una **aplicación móvil** en desarrollo. Su objetivo es ayudar al lector a conocer sus hábitos, mantener un entorno agradable y hacer que leer resulte más atractivo.
+
+### El problema que queremos resolver
+
+Entre las redes sociales, el entretenimiento digital y las notificaciones constantes, cada vez resulta más difícil encontrar momentos de lectura sin interrupciones. Nuestro reto es crear una solución tecnológica que motive a volver al papel y permita estudiar la experiencia lectora con responsabilidad.
+
+### Los tres componentes
+
+| Componente | Función | Estado |
 |---|---|---|
-| **Smart bookmark** | Uses a BNO055 orientation sensor and an e-paper display to support reading detection and feedback | Working prototype; connectivity with the station being developed |
-| **Home station** | Raspberry Pi 5 and SEN0609 radar gather presence and movement data and display them in a local visual dashboard | Sensor and dashboard tested on the original station; backup station in progress |
-| **Mobile app** | Designed for book tracking, reading history, personalised settings and reader feedback | Prototype / development |
-| **Wireless charging & focus music** | Planned additions to make the station more convenient and create an optional reading atmosphere | Integration and testing in progress |
+| **Marcapáginas inteligente** | Incorpora un sensor de orientación **BNO055** y una pantalla de tinta electrónica. Permite observar la orientación y los movimientos del libro. | Prototipo funcional; integración con la estación en desarrollo |
+| **Estación base** | Utiliza una **Raspberry Pi 5** y un radar **SEN0609** para detectar presencia, distancia y movimiento. Un panel web local visualiza los datos. | Sensor y panel probados en la estación principal; segunda estación de respaldo en preparación |
+| **Aplicación móvil** | Está planteada para consultar sesiones, registrar libros, configurar preferencias y recoger la opinión del lector. | Prototipo / desarrollo |
+
+La **carga inalámbrica** y la **música opcional para el modo concentración** forman parte de las integraciones previstas; su implementación no se presenta aquí como finalizada.
 
 <div align="center">
-<img src="./3D%20DESIGN/STATION.PNG" alt="Home station 3D design" width="400"/>
-<img src="./IMAGES/APP/APP%20DEMO.png" alt="Mobile app concept" width="400"/>
+  <img src="./3D%20DESIGN/STATION.PNG" alt="Diseño 3D de la estación base" width="390">
+  <img src="./IMAGES/APP/APP%20DEMO.png" alt="Concepto de la aplicación móvil" width="390">
 </div>
 
-## System architecture
+### ¿Cómo funciona la estación base?
 
 ```mermaid
 flowchart TD
-    B[Smart bookmark: BNO055 + e-paper]
-    R[SEN0609 radar]
-    P[Python UART sensor program]
-    J[mmwave_state.json]
-    F[FastAPI server]
-    D[HTML / CSS / JavaScript dashboard]
-    K[Chromium kiosk display]
-    A[Companion mobile app]
-
-    R --> P --> J --> F --> D --> K
-    B -. Communication in development .-> F
-    F -. Planned integration .-> A
+    A["Radar mmWave SEN0609"] --> B["Python · Lectura UART"]
+    B --> C["mmwave_state.json"]
+    C --> D["FastAPI · /api/state"]
+    D --> E["Panel HTML / CSS / JavaScript"]
+    E --> F["Pantalla con Chromium en modo kiosko"]
+    G["Marcapáginas · BNO055 + e-paper"] -. "Integración en desarrollo" .-> D
+    D -. "Sincronización futura" .-> H["App móvil"]
 ```
 
-The tested home-station workflow reads SEN0609 UART frames, extracts presence, distance, radial speed and signal energy, generates an experimental movement-based focus score, and serves the state through FastAPI to a browser dashboard.
+La estación principal ya ha utilizado Python para leer tramas del radar por UART y mostrar los datos mediante **FastAPI**. El «nivel de concentración» del prototipo es un **indicador experimental calculado a partir del movimiento**: no mide directamente la concentración, las emociones ni el disfrute de la lectura.
 
-**Scientific note:** our movement-based *focus level* is an experimental indicator, not a validated measure of concentration, emotions or enjoyment of reading. We plan to combine observations with voluntary reader feedback.
+### Documentación y archivos
 
-## Documentation and project files
-
-The repository still contains the team's original folders; they are being progressively documented and reorganised. The existing resources are:
-
-- [Project report and documents](./DOCUMENTS/)
-- [3D designs and prototypes](./3D%20DESIGN/)
-- [Electronics diagrams and coding materials](./ELECTRIC%20%20DIAGRAM%20AND%20CODING/)
-- [Images, designs and app concepts](./IMAGES/)
-- [Home-station installation guide](./docs/STATION_SETUP.md)
-- [Repository audit and reorganisation plan](./docs/REPOSITORY_GUIDE.md)
-
-**Source-code note:** the current coding folder includes screenshots of code. We will add the original editable firmware and Python files after verifying them against the working hardware. Screenshots alone are not sufficient for a reproducible build.
-
-## Hardware and software
-
-| Device | Technology |
+| Recursos | Acceso |
 |---|---|
-| Bookmark | Microcontroller, BNO055, e-paper screen |
-| Home station | Raspberry Pi 5, DFRobot SEN0609 / C4001 24 GHz radar, UART |
-| Data acquisition | Python, pyserial, JSON |
-| Local API and display | FastAPI, Uvicorn, HTML, CSS, JavaScript, Chromium kiosk mode |
-| Mobile app | Companion app prototype |
+| Instalación y configuración de la estación base | [Guía en español](./docs/STATION_SETUP.es.md) |
+| Organización y mejora del repositorio | [Guía en español](./docs/REPOSITORY_GUIDE.es.md) |
+| Informe y documentos del proyecto | [DOCUMENTS](./DOCUMENTS/) |
+| Diseños 3D | [3D DESIGN](./3D%20DESIGN/) |
+| Esquemas y programación | [ELECTRIC DIAGRAM AND CODING](./ELECTRIC%20%20DIAGRAM%20AND%20CODING/) |
+| Fotografías, imágenes y recursos gráficos | [IMAGES](./IMAGES/) |
 
-## Team NEXT
+**Nota técnica:** actualmente existen capturas de código en el repositorio. Iremos incorporando los **archivos fuente originales y probados** del marcapáginas y la estación, además de sus instrucciones de instalación, para que el proyecto pueda reproducirse.
 
-**Blanca Cascales · Jimena Martínez · Mario Sánchez**  
-**Coach:** José Ángel · **MMM Academy**, Alcantarilla (Spain)
+### Nuestro camino a la final internacional
 
-Our team won the Spanish national final in the **Future Innovators Senior** category in September 2026 and is preparing to represent Spain at the international WRO final in Puerto Rico, **8–10 December 2026**.
+En septiembre de 2026 conseguimos el título de **campeones de España de WRO Future Innovators Senior**. Nuestro siguiente reto es representar a España en la **final internacional de Puerto Rico, del 8 al 10 de diciembre de 2026**.
 
-## Roadmap
+Nuestro trabajo continúa: estamos documentando el desarrollo, preparando una segunda estación base como repuesto e integrando los diferentes dispositivos del ecosistema.
 
-- [x] Smart bookmark prototype with BNO055 and e-paper screen
-- [x] SEN0609 communication over UART on Raspberry Pi 5
-- [x] Python sensor processing and JSON output
-- [x] FastAPI dashboard running locally
-- [ ] Publish and validate complete editable source code
-- [ ] Reproduce the working station on a second Raspberry Pi
-- [ ] Integrate bookmark-to-station communication
-- [ ] Test wireless charging and optional music controls
-- [ ] Integrate the app with real session data
-- [ ] Document validation tests and limitations
+### Privacidad y rigor
 
-## Privacy and responsible design
-
-NEXTpage aims to support reading without using a camera for motion detection. Any optional personal data or subjective reader feedback should be handled with consent, transparency and data minimisation.
-
-## Licence
-
-The team has not yet selected a licence for code, designs and media. Public visibility does not imply permission for unrestricted reuse.
+NEXTpage busca apoyar la lectura utilizando sensores de movimiento y presencia, sin necesidad de una cámara para esa tarea. Las conclusiones sobre el bienestar o la motivación lectora requieren **validación y la participación voluntaria del usuario**.
 
 ---
 
-<div align="center"><strong>NEXTpage — technology that brings us back to books.</strong></div>
+<a id="en"></a>
+## 🇬🇧 NEXTpage — English
+
+### What is NEXTpage?
+
+**NEXTpage is a smart reading ecosystem designed to encourage young people to rediscover printed books.** We want technology to support reading, not replace a physical book with another screen.
+
+Our project brings together a **smart bookmark**, a **home station** and a developing **companion mobile app**. The goal is to help readers understand their reading routines, create a pleasant environment and make reading more engaging.
+
+### The challenge
+
+Social media, digital entertainment and constant notifications can make uninterrupted reading more difficult. We are exploring how technology could help motivate young people to return to printed books while collecting useful information in a responsible way.
+
+### Three connected components
+
+| Component | What it does | Current status |
+|---|---|---|
+| **Smart bookmark** | Integrates a **BNO055** orientation sensor and an **e-paper display** to observe the book's orientation and movement. | Working prototype; station connectivity in development |
+| **Home station** | Uses a **Raspberry Pi 5** and **SEN0609** radar to detect presence, distance and movement. A local web dashboard displays data. | Sensor and dashboard tested on the original station; backup station being prepared |
+| **Mobile app** | Intended for reading history, book tracking, preferences and voluntary reader feedback. | Prototype / development |
+
+**Wireless charging** and **optional focus music** are planned integrations; they are not presented as completed features.
+
+### How does the station work?
+
+The diagram above shows the tested pipeline: the SEN0609 sends UART observations to Python; these are stored as JSON and exposed through **FastAPI** to a dashboard shown in Chromium kiosk mode.
+
+The prototype's *focus level* is an **experimental movement-based heuristic**, not a clinically validated measurement of concentration, feelings or reading enjoyment.
+
+### Documentation and project files
+
+| Resources | Open |
+|---|---|
+| Home station installation and configuration | [English setup guide](./docs/STATION_SETUP.md) |
+| Repository audit and safe reorganisation | [English repository guide](./docs/REPOSITORY_GUIDE.md) |
+| Reports and project documents | [DOCUMENTS](./DOCUMENTS/) |
+| 3D models | [3D DESIGN](./3D%20DESIGN/) |
+| Electronics and coding materials | [ELECTRIC DIAGRAM AND CODING](./ELECTRIC%20%20DIAGRAM%20AND%20CODING/) |
+| Photos and visual assets | [IMAGES](./IMAGES/) |
+
+**Source-code note:** the repository currently includes screenshots of code. We will add the **original, hardware-tested editable code** for the bookmark and home station with reproducible setup instructions.
+
+### Our journey to the international final
+
+In September 2026, we became **Spanish national champions in WRO Future Innovators Senior**. We are now preparing to represent Spain at the **WRO international final in Puerto Rico, 8–10 December 2026**.
+
+Our next steps include improving technical documentation, replicating the home station as a travel backup and integrating the different parts of the reading ecosystem.
+
+### Privacy and scientific responsibility
+
+NEXTpage aims to help people read using movement and presence sensors, without requiring a camera for this task. Claims about reading motivation or wellbeing would require **further validation and voluntary reader feedback**.
+
+---
+
+<div align="center">
+
+**NEXTpage — Tecnología para volver a los libros.**  
+*Technology that brings us back to books.*
+
+**Licencia / Licence:** pendiente de definir / not yet selected.
+
+</div>
