@@ -1,0 +1,8 @@
+*.db
+*.db-*
+*.sqlite*
+*.csv
+*.mp3
+__pycache__/
+.venv/
+interface/static/
