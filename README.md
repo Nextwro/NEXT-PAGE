@@ -105,6 +105,12 @@ flowchart TD
 
 La estación principal ya ha utilizado Python para leer tramas del radar por UART y mostrar los datos mediante **FastAPI**. El «nivel de concentración» del prototipo es un **indicador experimental calculado a partir del movimiento**: no mide directamente la concentración, las emociones ni el disfrute de la lectura.
 
+### NEXTflex — Experiencia interactiva
+
+NEXTflex es una actividad complementaria de NEXTpage para atraer visitantes al stand de la final internacional. Los participantes identifican vocales iluminadas y registran su tiempo de reacción en una clasificación local. No es una prueba validada de comprensión lectora.
+
+[Ver código fuente, componentes y montaje de NEXTflex](./NEXTFLEX/)
+
 ### Documentación y archivos
 
 | Recursos | Acceso |
@@ -158,6 +164,12 @@ Social media, digital entertainment and constant notifications can make uninterr
 The diagram above shows the tested pipeline: the SEN0609 sends UART observations to Python; these are stored as JSON and exposed through **FastAPI** to a dashboard shown in Chromium kiosk mode.
 
 The prototype's *focus level* is an **experimental movement-based heuristic**, not a clinically validated measurement of concentration, feelings or reading enjoyment.
+
+### NEXTflex — Interactive Brand Experience
+
+NEXTflex is a complementary activity designed to engage visitors at the international final. Participants identify illuminated vowels and record their reaction time on a local leaderboard. It is not a validated reading-comprehension test.
+
+[Explore NEXTflex source code, components and assembly](./NEXTFLEX/)
 
 ### Documentation and project files
 
