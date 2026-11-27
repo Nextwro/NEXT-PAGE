@@ -1,5 +1,7 @@
 # NEXTpage home station — setup and replication guide
 
+[🇪🇸 Versión en español](./STATION_SETUP.es.md) · [Back to README](../README.md#en)
+
 **Purpose:** replicate the working Raspberry Pi 5 station on a second Raspberry Pi 5 without changing the code that was tested on Station 1. This guide covers the **SEN0609 sensor and dashboard**; bookmark, Spotify and wireless-charging integrations are tracked separately.
 
 > This installation is still under replication. The original station was tested; the second station must be verified on its own hardware. The definitive source files must be copied from the original Raspberry Pi, not rewritten from memory.

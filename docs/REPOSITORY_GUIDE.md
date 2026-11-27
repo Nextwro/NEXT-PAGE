@@ -1,5 +1,7 @@
 # Repository audit and reorganisation plan
 
+[🇪🇸 Versión en español](./REPOSITORY_GUIDE.es.md) · [Back to README](../README.md#en)
+
 This plan records the **actual repository contents checked on 9 November 2026**. We will not move, rename or delete the team's existing materials until we verify them.
 
 ## Existing root directories
